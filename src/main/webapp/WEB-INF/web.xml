@@ -11,10 +11,9 @@
         <load-on-startup>1</load-on-startup>
     </servlet>
 
-
+    <!-- mapping - привязка к определённому URL-->
     <servlet-mapping>
         <servlet-name>main</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 </web-app>
-
